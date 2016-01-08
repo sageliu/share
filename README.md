@@ -1,9 +1,9 @@
 # share
+如果还有对github操作不熟悉的同学，请戳https://github.com/sageliu/share
+
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 出现的一些人名，url地址等请无视，未经允许请勿它用，谢谢~~~~~~~~~~~~~~
-
-如果还有对github操作不熟悉的同学，请戳https://github.com/sageliu/share
 
 欢迎多多watch我，不想接收更新通知的就star我或者unwatch，再或者直接fork到你自己的仓库一份。    
 
