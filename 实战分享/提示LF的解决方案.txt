@@ -9,4 +9,10 @@ $ git add .
 
 git remote add origin https://github.com/sageliu/share.git
 
+
+git add -A
+git commit -mo
+注意：不pull的话，直接push会一直push不上去
+git pull
+
 git push origin master
