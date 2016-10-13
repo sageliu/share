@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nodejs听课笔记--20151117【nodejs  --单线程、异步、非阻塞模型】
 教程--强烈推荐
 http://www.runoob.com/nodejs/nodejs-tutorial.html
@@ -64,3 +65,71 @@ npm install -g nodeppt --registry=http://registry.npm.taobao.org
 npm install -g nodeppt这个是不挂代理的
 
 
+=======
+nodejs听课笔记--20151117【nodejs  --单线程、异步、非阻塞模型】
+教程--强烈推荐
+http://www.runoob.com/nodejs/nodejs-tutorial.html
+
+nodejs下载到本机
+nodejs.org根据自己的电脑操作系统版本自行download
+
+检测nodejs安装成功
+在dos命令行中【也就是cmd】操作，node -v
+返回当前安装的nodejs的版本，我的是v0.10.15
+
+修改webstorm中的global以及
+files-->setting-->检索NPM-->Edit usage scope【如果没有点击configure，一直下一步，】-->library中添加global和core modules-->ok
+
+webstorm中打开terminal
+View-->Tool windows-->Terminal
+
+
+npm config ls查看当前配置【可修改增加以下的代理，提高访问速度】
+
+临时使用代理
+npm install -g cnpm --registry=http://registry.npm.taobao.org
+
+永久修改代理
+npm config set registry "http://registry.npm.taobao.org"
+
+到指定的路径之后，初始化node包
+npm init       ----会在当前路径下【生成package.json文件】生成一个模块
+
+Package.json 属性说明
+name - 包名。
+version - 包的版本号。
+description - 包的描述。【到npmjs.org官网上找这个模块的时候，就可以通过关键字进行查找】
+homepage - 包的官网 url 。
+author - 包的作者姓名。
+contributors - 包的其他贡献者姓名。
+dependencies - 依赖包列表。如果依赖包没有安装，npm 会自动将依赖包安装在 node_module 目录下。
+repository - 包代码存放的地方的类型，可以是 git 或 svn，git 可在 Github 上。
+main - main 字段是一个模块ID，它是一个指向你程序的主要项目。就是说，如果你包的名字叫 express，然后用户安装它，然后require("express")。
+keywords - 关键字
+
+添加npm用户，密码，邮箱
+npm adduser
+将自己的包上传到服务器
+npm publish
+
+使用node安装模块
+npm install <Module Name>
+
+
+课件
+http://study.zhufengpeixun.cn/boards/2/topics/43?r=44#message-44
+
+课件下载git路径
+https://github.com/zhufengnodejs/node2015081th.git
+
+腾讯课堂地址
+http://ke.qq.com/course/101924?datag=qqpanel&ADUIN=83687401&ADSESSION=1447754400&ADTAG=CLIENT.QQ.5432_.0&ADPUBNO=26515
+
+在线安装nodeppt在dos命令行中操作
+npm install -g nodeppt --registry=http://registry.npm.taobao.org
+这个是挂了代理的
+
+npm install -g nodeppt这个是不挂代理的
+
+
+>>>>>>> a0ff361e6f2cfa83b2d9b550b5ed0ef83c348f3d
